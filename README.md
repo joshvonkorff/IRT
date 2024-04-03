@@ -7,6 +7,7 @@ https://proceedings.neurips.cc/paper/2015/file/bac9162b47c56fc8a4d2a519803d51b3-
 The RNN encodes a given problem as a one-hot encoding, with another column for each response.  Thus, if a given student answers problem 1 correctly and problem 2 incorrectly, the input to the RNN would be:
 
 [1, 1, 0, 0]
+
 [0, 0, 1, 0]
 
 The first column is problem 1, the second is the answer to problem 1 (correct or incorrect), and so on.
