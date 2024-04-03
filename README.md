@@ -15,9 +15,13 @@ The first column is problem 1, the second is the answer to problem 1 (correct or
 In this project, I have used an Item Response Theory model (with student abilities and problem difficulties) to create student responses.  The student ability in this case has only a single latent variable, so that I can test the result against the loss of regular Item Response Theory.
 
 I obtained the idea for the code from:
+
 https://blog.floydhub.com/a-beginners-guide-on-recurrent-neural-networks-with-pytorch/
+
 And from:
+
 Deep Learning with PyTorch, by Eli Stevens (Author), Luca Antiga (Author), Thomas Viehmann (Author)
+
 Which is publicly available here: https://github.com/deep-learning-with-pytorch/dlwpt-code
 
 However, neither of these sources uses Deep Knowledge Tracing, so only the basic idea of this code comes from these sources.
